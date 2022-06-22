@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Homework Week5</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <div class="main-container">
+      <div class="instructions">
+        <h2 class="first">Choose your destiny!</h2>
+        <h2 class="second hidden"></h2>
+      </div>
+      
+      <div class="results-container hidden">
+        <figure id="player">
+          <img src="./images/scissors-player.jpg" />
+          <figcaption>You</figcaption>
+        </figure>
+        <figure id="computer">
+          <img src="./images/rock-computer.jpg" />
+          <figcaption>Computer</figcaption>
+        </figure>
+        <button class="cursor-pointer">Again !</button>
+      </div>
+
+      <div class="animation-container hidden">
+        <figure class="player-animation">
+          <img src="./images/rock-player.jpg" />
+        </figure>
+        <figure class="computer-animation">
+          <img src="./images/rock-computer.jpg" />
+        </figure>
+      </div>
+
+      <div class="choice-container">
+        <figure class="cursor-pointer" id="rock">
+          <img src="./images/rock.jpg" />
+          <figcaption>Rock</figcaption>
+        </figure>
+        <figure class="cursor-pointer" id="paper">
+          <img src="./images/paper.jpg" />
+          <figcaption>Paper</figcaption>
+        </figure>
+        <figure class="cursor-pointer" id="scissors">
+          <img src="./images/scissors.jpg" />
+          <figcaption>Scissors</figcaption>
+        </figure>
+      </div>
+      <div class="score">
+        <h3>Score Board</h3>
+        <h4 id="games">Played Games: 0</h4>
+        <h4 id="wins">You: 0</h4>
+        <h4 id="losses">Computer: 0</h4>
+        <h4 id="draws">Draws: 0</h4>
+      </div>
+    </div>
+  </body>
+</html>
